@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.navbar {
+    background-image: url(./img/bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

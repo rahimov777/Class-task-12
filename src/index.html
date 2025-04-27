@@ -1,14 +1,39 @@
 <!doctype html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./output.css" rel="stylesheet">
   <!-- npx tailwindcss -i ./src/input.css -o ./src/output.css --watch -->
 </head>
+
 <body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+  <nav class="navbar text-white w-[100%] h-[600px]">
+    <div class="flex md:pl-[150px] md:pr-[150px] md:pt-[30px] justify-between sm:pl-[20px] sm:pr-[20px] sm:pt-[30px]">
+      <div class="">
+        <img src="./img/INNOMA.VC.png" alt="">
+      </div>
+      <div class="flex gap-[55px] sm:hidden md:inline-flex">
+        <p>Кто мы?</p>
+        <p>Услуги</p>
+        <p>Акселератор</p>
+        <p>Новости</p>
+      </div>
+      <div class="sm:flex gap-[10px]">
+        <button class="w-[120px] h-[40px] bg-[#07AF91] rounded-[10px]">Войти</button>
+        <img src="./img/Group 929.png" alt="" class="md:hidden sm:block">
+      </div>
+    </div>
+    <img src="./img/Group 934.png" alt="" class="md:hidden sm:block sm:pt-[60px] sm:pl-[20px]">
+    <div class="md:pl-[150px] md:pr-[150px] md:pt-[100px] sm:hidden md:block">
+      <h1 class="text-[48px]">Запустите</h1>
+      <h1 class="w-[650px] h-[60px] bg-[#07AF91] text-[48px] rounded-[10px]">Технологический IT-бизнес </h1>
+      <h1 class="text-[48px]">На международных рынках</h1>
+      <p class="text-[20px] pb-[20px]">Открыт набор заявок на акселератор</p>
+      <button class="w-[200px] h-[50px] bg-[#61B5E4] rounded-[10px]">Подать заявку</button>
+    </div>
+  </nav>
 </body>
+
 </html>
